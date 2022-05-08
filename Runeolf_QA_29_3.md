@@ -26,6 +26,7 @@
 >    let exp = Number(b); <br>
 >        if (a != Number(a) || b != Number(b)) { <br>
 >               console.log("Error - not a numer!") <br> 
+>               } else {
 >    while (count < exp) { <br>
 >        result = result * a; <br>
 >        count++; <br>
