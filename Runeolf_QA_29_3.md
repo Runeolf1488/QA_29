@@ -24,16 +24,19 @@
 >   <br>
 >const stepen = function(a, b){ <br>
 >    let exp = Number(b); <br>
+>        if (a != Number(a) || b != Number(b)) { <br>
+>               console.log("Error - not a numer!") <br> 
 >    while (count < exp) { <br>
 >        result = result * a; <br>
 >        count++; <br>
 > <br>
 >        console.log(result); <br>
->    } <br>
-> <br>
+>      } <br>
+>   }<br>
 >} <br>
 > <br>
 >stepen(2, 10); <br>
+>stepen("asd", 12); <br>
  <br>
 * Написать скрипт, который выведет 5 строк в консоль таким образом, чтобы в первой строчке выводилось :), во второй :):) и так далее <br>
 
